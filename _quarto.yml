@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+date-format: "Do MMMM YYYY"  
+website:
+  title: "Straightbourne"
+  favicon: images/NickyB.png
+  twitter-card: true
+  open-graph: true
+  site-url: https://straightbourne.uk
+
+  page-footer: 
+    left: 
+      - text: "{{< fa house >}} *home*"
+        href: /
+    right: "&copy; *all rights reserved*" 
+format:
+  html:
+    include-in-header: 
+      text: |
+        <!-- Privacy-friendly analytics by Plausible -->
+        <script async src="https://stats.sptr.net/js/pa--L_06V204N1nBJV_X5vJg.js"></script>
+        <script>
+          window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+          plausible.init()
+        </script>
+    theme:
+      - cosmo
+      - brand
