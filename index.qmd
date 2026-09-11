@@ -5,11 +5,17 @@ about:
   id: sb-about
   template: trestles
   links:
-    - text: "{{< fa feather >}} Bluesky"
-      href: https://bsky.app/profile/straightbourne.uk
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/niximagery/
     - icon: github
       text: Github
       href: https://github.com/niximagery
+    - text: "{{< fa feather >}} Bluesky"
+      href: https://bsky.app/profile/straightbourne.uk
+    - icon: instagram
+      text: Insta
+      href: https://www.instagram.com/straightbourne/
 ---
 
 :::{#sb-about}
@@ -27,4 +33,4 @@ about:
 
 :::
 
-*I am intending that [straightbourne.uk](https://straighbourne.uk) will become a home domain after my research is concluded and I leave the great neo-liberal nightmare that is education for a return to sanity and new adventure. Links in the page footer will take you to what's current.* -- Nicky
+*I am intending that [straightbourne.uk](https://straighbourne.uk) will be my internet home domain after my research is concluded and I return to sanity to seek new adventures. Links in the page footer will take you to what's current.*
