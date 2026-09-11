@@ -2,6 +2,7 @@
 title: "Straightbourne"
 image: images/tractor.jpg
 about:
+  id: sb-about
   template: trestles
   links:
     - text: "{{< fa feather >}} Bluesky"
@@ -11,17 +12,19 @@ about:
       href: https://github.com/niximagery
 ---
 
-Nothing to see here yet, except maybe a nice old tractor.
+:::{#sb-about}
 
 **Straightbourne** is a portmanteau of two family names. 
 
-**Straight** is from the West Virginia Straight line that includes Jacob Straight, father of my grandfather's grandfather's grandfather, who was killed and scalped in Monongalia County, WV in October 1786 by Shawnee Indians. 
+**Straight** is from the West Virginia Straight line that includes Jacob Straight, father of my grandfather's grandfather's grandfather, who in October 1786 was killed and scalped for British bounty in Monongalia County, WV by Shawnee. 
 
 **Bourne** is from the London line of Bournes that included my great-grandfather George Alfred Bourne who walked with his barrow to help build Letchworth Garden City, the first of its design, separating industrial from residential spaces in order to improve the quality of life for its citizens. I grew up in Letchworth.
 
 
 ---
-
 @straightbourne  
 **Scotland**  
 
+:::
+
+*I am intending that [straightbourne.uk](https://straighbourne.uk) will become a home domain after my research is concluded and I leave the great neo-liberal nightmare that is education for a return to sanity and new adventure. Links in the page footer will take you to what's current.* -- Nicky
