@@ -45,6 +45,6 @@ about:
 
 :::
 
-*I am intending that [straightbourne.uk](https://straighbourne.uk) will be my internet home domain after my research is concluded and I return to sanity to seek new adventures. Links in the page footer will take you to what's current.*
+*I am intending that [straightbourne.uk](https://straightbourne.uk) will be my internet home domain after my research is concluded and I return to sanity to seek new adventures. Links in the page footer will take you to what's current.*
 <!-- ::: {#lst-desktop}
 ::: -->
