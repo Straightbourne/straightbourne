@@ -1,6 +1,6 @@
 ---
 title: "Straightbourne"
-image: images/tractor.jpg
+image: images/desktop.jpg
 about:
   id: sb-about
   template: trestles
