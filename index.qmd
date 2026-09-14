@@ -16,21 +16,35 @@ about:
     - icon: instagram
       text: Insta
       href: https://www.instagram.com/straightbourne/
+# listing:
+#   id: lst-desktop
+#   type: grid
+#   contents: 
+#     - chronicles
+#     - supervision-27.qmd
+#     - 00-workspace.qmd
+#   grid-columns: 1
+#   fields: [title, description]
+#   sort: false
+#   feed: false
 ---
 
 :::{#sb-about}
 
-**Straightbourne** is a portmanteau of two family names. 
+**Straightbourne** is a portmanteau of two family names.  
 
-**Straight** is from the West Virginia Straight line that includes Jacob Straight, father of my grandfather's grandfather's grandfather, who in October 1786 was killed and scalped for British bounty in Monongalia County, WV by Shawnee. 
+**Straight** is from the West Virginia family line that includes [Jacob Straight](https://niximagery.github.io/family/Hood/1741-06-23-Jacob-Straight.html), father of my [grandfather](https://niximagery.github.io/family/Hood/1903-04-08-Harry-S-Hood.html)'s grandfather's grandfather, who in October 1786 was killed and scalped for British bounty in Monongalia County, WV by Shawnee.  
 
-**Bourne** is from the London line of Bournes that included my great-grandfather George Alfred Bourne who walked with his barrow to help build Letchworth Garden City, the first of its design, separating industrial from residential spaces in order to improve the quality of life for its citizens. I grew up in Letchworth.
+**Bourne** is from the London line of Bournes that included my great-grandfather [George Alfred Bourne](https://niximagery.github.io/family/Bourne/1885-08-13-George-Alfred-Bourne.html) who walked with his barrow to help build Letchworth Garden City, the first of its design, separating industrial from residential spaces in order to improve the quality of life for its citizens. I grew up in Letchworth.
 
 
 ---
 @straightbourne  
 **Scotland**  
 
+
 :::
 
 *I am intending that [straightbourne.uk](https://straighbourne.uk) will be my internet home domain after my research is concluded and I return to sanity to seek new adventures. Links in the page footer will take you to what's current.*
+<!-- ::: {#lst-desktop}
+::: -->
