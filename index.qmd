@@ -7,10 +7,10 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/niximagery/
+      href: https://www.linkedin.com/in/straightbourne/
     - icon: github
       text: Github
-      href: https://github.com/niximagery
+      href: https://github.com/straightbourne
     - text: "{{< fa feather >}} Bluesky"
       href: https://bsky.app/profile/straightbourne.uk
     - icon: instagram
