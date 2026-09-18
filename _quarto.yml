@@ -5,7 +5,7 @@ project:
 date-format: "Do MMMM YYYY"  
 website:
   title: "Straightbourne"
-  favicon: images/transparent.png
+  favicon: images/anarchy.gif
   twitter-card: true
   open-graph: true
   site-url: https://straightbourne.uk
