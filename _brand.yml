@@ -1,0 +1,37 @@
+meta:
+  name: Studio Notebook
+  link: https://straightbourne.uk
+
+color:
+  palette:
+    paper: "#FBF5EA"
+    ink: "#2B2420"
+    terracotta: "#B55A3C"
+    clay: "#D88C6A"
+    moss: "#6F7B55"
+    graphite: "#4A4540"
+    wash: "#E8DDD0"
+  background: paper
+  foreground: ink
+  primary: terracotta
+  secondary: moss
+  tertiary: clay
+  light: paper
+  dark: ink
+  link: terracotta
+
+typography:
+  fonts:
+    - family: "Source Sans 3"
+      source: google
+    - family: "Cormorant Garamond"
+      source: google
+    - family: "JetBrains Mono"
+      source: google
+  base: Source Sans 3
+  headings:
+    family: "Cormorant Garamond"
+    weight: 600
+  monospace: "JetBrains Mono"
+  link:
+    decoration: underline
