@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.23">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,18 +32,13 @@ ul.task-list li input[type="checkbox"] {
 <link href="./images/anarchy.gif" rel="icon" type="image/gif">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-bc230ec0b62d69cd262b60ceb19edf49.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-50a18c6c561acb6a3fa0b6bc3272c921.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-bc230ec0b62d69cd262b60ceb19edf49.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-c7d5d95a149877aa8f6e95259e9fb18a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7cf75db90e1e410d5f13eeded8504c25.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-6f8719988c77ce29d6f52fb40d468dcc.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-7cf75db90e1e410d5f13eeded8504c25.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c84fdc73b515a5ac1977fbb5cf725321.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
@@ -136,8 +131,8 @@ ul.task-list li input[type="checkbox"] {
   </div>
   <div class="about-contents"><div id="sb-about">
 <p><strong>Straightbourne</strong> is a portmanteau of two family names.</p>
-<p><strong>Straight</strong> is from the West Virginia family line that includes <a href="https://niximagery.github.io/family/Hood/1741-06-23-Jacob-Straight.html">Jacob Straight</a>, father of my <a href="https://niximagery.github.io/family/Hood/1903-04-08-Harry-S-Hood.html">grandfather</a>’s grandfather’s grandfather, who in October 1786 was killed and scalped for British bounty in Monongalia County, WV by Shawnee.</p>
-<p><strong>Bourne</strong> is from the London line of Bournes that included my great-grandfather <a href="https://niximagery.github.io/family/Bourne/1885-08-13-George-Alfred-Bourne.html">George Alfred Bourne</a> who walked with his barrow to help build Letchworth Garden City, the first of its design, separating industrial from residential spaces in order to improve the quality of life for its citizens. I grew up in Letchworth.</p>
+<p><strong>Straight</strong> is from the West Virginia family line that includes <a href="https://straightbourne.github.io/family/Hood/1741-06-23-Jacob-Straight.html">Jacob Straight</a>, father of my <a href="https://straightbourne.github.io/family/Hood/1903-04-08-Harry-S-Hood.html">grandfather</a>’s grandfather’s grandfather, who in October 1786 was killed and scalped for British bounty in Monongalia County, WV by Shawnee.</p>
+<p><strong>Bourne</strong> is from the London line of Bournes that included my great-grandfather <a href="https://straightbourne.github.io/family/Bourne/1885-08-13-George-Alfred-Bourne.html">George Alfred Bourne</a> who walked with his barrow to help build Letchworth Garden City, the first of its design, separating industrial from residential spaces in order to improve the quality of life for its citizens. I grew up in Letchworth.</p>
 <hr>
 <p><span class="citation" data-cites="straightbourne">@straightbourne</span><br>
 <strong>Scotland</strong></p>
@@ -195,14 +190,13 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
