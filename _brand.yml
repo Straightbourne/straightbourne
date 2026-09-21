@@ -1,37 +1,36 @@
 meta:
-  name: Studio Notebook
+  name: Quiet Editorial
   link: https://straightbourne.uk
 
 color:
   palette:
-    paper: "#FBF5EA"
-    ink: "#2B2420"
-    terracotta: "#B55A3C"
-    clay: "#D88C6A"
-    moss: "#6F7B55"
-    graphite: "#4A4540"
-    wash: "#E8DDD0"
+    paper: "#F7F4EF"
+    ink: "#242424"
+    slate: "#5C5A57"
+    smoke: "#A7A29B"
+    olive: "#6B7360"
+    line: "#D8D2C8"
   background: paper
   foreground: ink
-  primary: terracotta
-  secondary: moss
-  tertiary: clay
+  primary: olive
+  secondary: slate
+  tertiary: smoke
   light: paper
   dark: ink
-  link: terracotta
+  link: olive
 
 typography:
   fonts:
-    - family: "Source Sans 3"
+    - family: "IBM Plex Serif"
       source: google
-    - family: "Cormorant Garamond"
+    - family: "Inter"
       source: google
-    - family: "JetBrains Mono"
+    - family: "IBM Plex Mono"
       source: google
-  base: Source Sans 3
+  base: Inter
   headings:
-    family: "Cormorant Garamond"
+    family: "IBM Plex Serif"
     weight: 600
-  monospace: "JetBrains Mono"
+  monospace: "IBM Plex Mono"
   link:
     decoration: underline
