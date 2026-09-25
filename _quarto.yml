@@ -20,13 +20,10 @@ website:
         href: https://sptr.net
     right: "&copy; *all rights reserved*" 
 
-brand:
-  light: quiet-editorial-light.yml
-  dark: quiet-editorial-dark.yml
-
 format:
   html:
     respect-user-color-scheme: true
+    page-layout: full
     include-in-header: 
       text: |
         <!-- Privacy-friendly analytics by Plausible -->
@@ -36,11 +33,6 @@ format:
           plausible.init()
         </script>
 
-theme: 
-  light: 
-    - brand
-    - cosmo
-
-  dark: 
-    - brand
-    - slate
+brand:
+  light: quiet-editorial-light.yml
+  dark: quiet-editorial-dark.yml
