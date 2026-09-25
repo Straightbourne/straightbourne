@@ -19,8 +19,14 @@ website:
       - text: "{{< fa globe >}} sptr.net"
         href: https://sptr.net
     right: "&copy; *all rights reserved*" 
+
+brand:
+  light: quiet-editorial-light.yml
+  dark: quiet-editorial-dark.yml
+
 format:
   html:
+    respect-user-color-scheme: true
     include-in-header: 
       text: |
         <!-- Privacy-friendly analytics by Plausible -->
@@ -29,6 +35,12 @@ format:
           window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
           plausible.init()
         </script>
-    theme:
-      - cosmo
-      - brand
+
+theme: 
+  light: 
+    - brand
+    - cosmo
+
+  dark: 
+    - brand
+    - slate
