@@ -21,16 +21,17 @@ color:
 
 typography:
   fonts:
-    - family: "IBM Plex Serif"
-      source: google
-    - family: "Inter"
-      source: google
-    - family: "IBM Plex Mono"
-      source: google
-  base: Inter
+    - family: "system-ui"
+      source: system
+    - family: "Georgia"
+      source: system
+    - family: "ui-monospace"
+      source: system
+  base:
+    family: "system-ui"
   headings:
-    family: "IBM Plex Serif"
+    family: "Georgia"
     weight: 600
-  monospace: "IBM Plex Mono"
+  monospace: "ui-monospace"
   link:
     decoration: underline
