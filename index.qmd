@@ -2,15 +2,15 @@
 title: "Straightbourne"
 image: images/desktop.jpg
 about:
-  # id: sb-about
-  template: jolla
-  # links:
+  id: sb-about
+  template: trestles
+  links:
     # - icon: linkedin
     #   text: LinkedIn
     #   href: https://www.linkedin.com/in/straightbourne/
-    # - icon: github
-    #   text: Github
-    #   href: https://github.com/straightbourne
+    - icon: github
+      text: Github
+      href: https://github.com/straightbourne
     # - text: "{{< fa feather >}} Bluesky"
     #   href: https://bsky.app/profile/straightbourne.uk
     # - icon: instagram
@@ -29,7 +29,7 @@ about:
 #   feed: false
 ---
 
-<!-- :::{#sb-about}
+:::{#sb-about}
 *[straightbourne.uk](https://straightbourne.uk) will be my internet home domain after my research is concluded and I return to sanity, seeking new adventures. Links in the page footer will take you to what's current.*
 
 ---
@@ -47,7 +47,7 @@ Nick Hood
 **Scotland**  
 
 
-::: -->
+:::
 
 <!-- ::: {#lst-desktop}
 ::: -->

@@ -14,14 +14,14 @@ website:
     left: 
       - text: "{{< fa house >}} *home*"
         href: /
+      - text: "{{< fa book >}} Chronicles"
+        href: /chronicles
+      - text: "{{< fa globe >}} sptr.net"
+        href: https://sptr.net
+    center: "&copy; *all rights reserved*" 
     right: 
       - icon: github
         href: https://github.com/straightbourne
-      # - text: "{{< fa book >}} Chronicles"
-      #   href: /chronicles
-      # - text: "{{< fa globe >}} sptr.net"
-      #   href: https://sptr.net
-    center: "&copy; *all rights reserved*" 
 
 format:
   html:
