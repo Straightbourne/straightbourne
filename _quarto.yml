@@ -14,19 +14,24 @@ website:
     left: 
       - text: "{{< fa house >}} *home*"
         href: /
-      - text: "{{< fa book >}} Chronicles"
-        href: /chronicles
-      - text: "{{< fa globe >}} sptr.net"
-        href: https://sptr.net
+      - text: "{{< fa info >}} *about*"
+        href: about.qmd
     center: "&copy; *all rights reserved*" 
     right: 
+      # - text: "{{< fa book >}} Chronicles"
+      #   href: /chronicles
+      # - text: "{{< fa globe >}} sptr.net"
+      #   href: https://sptr.net
+      # - text: "{{< fa 500px >}} 500px"
+      #   href: https://500px.com/p/straightbourne
       - icon: github
         href: https://github.com/straightbourne
 
 format:
   html:
-    respect-user-color-scheme: true
+    # respect-user-color-scheme: true
     page-layout: full
+    css: styles.css
     include-in-header: 
       text: |
         <!-- Privacy-friendly analytics by Plausible -->
@@ -36,6 +41,6 @@ format:
           plausible.init()
         </script>
 
-brand:
-  light: quiet-editorial-light.yml
-  dark: quiet-editorial-dark.yml
+brand: quiet-editorial-dark.yml
+  # light: quiet-editorial-light.yml
+  # dark: quiet-editorial-dark.yml
