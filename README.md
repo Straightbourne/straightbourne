@@ -1,13 +1,16 @@
 <table border="0">
   <td>
-    <img src="images/1984-style sm.jpg" alt="Nick Hood" />
-  </td>
-  <td>
     <h1>Nick Hood</h1>
     <span>I am a writer and researcher based in Scotland, currently completing a PhD at The University of Edinburgh.
+  </td>
+  <td width="40%">
+    <img src="images/2017-NickGrad.jpg" alt="Nick Hood" />
+  </td>
 </span>
   </td>
 </table>
+
+
 
 
 <h2>About me</h2>
