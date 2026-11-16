@@ -6,21 +6,18 @@ about:
   template: trestles
   image-shape: round
   links:
-    # - icon: linkedin
-    #   text: LinkedIn
-    #   href: https://www.linkedin.com/in/straightbourne/
     - icon: github
-      text: Github
       href: https://github.com/straightbourne
+    - icon: linkedin
+      href: https://www.linkedin.com/in/straightbourne/
+    - icon: substack
+      href: https://straightbourne.substack.com/
+    - text: "{{< fa brands bluesky >}}"
+      href: https://bsky.app/profile/straightbourne.uk
+    - text: "{{< fa globe >}} SPTR"
+      href: https://sptr.net
     - text: "{{< fa book >}} Chronicles"
       href: /chronicles
-    - text: "{{< fa globe >}} sptr.net"
-      href: https://sptr.net
-    - text: "{{< fa brands bluesky >}} Bluesky"
-      href: https://bsky.app/profile/straightbourne.uk
-    # - icon: instagram
-    #   text: Insta
-    #   href: https://www.instagram.com/straightbourne/
 # listing:
 #   id: lst-desktop
 #   type: grid
