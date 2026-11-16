@@ -1,6 +1,6 @@
 <table border="0">
   <td>
-    <img src="images/nick.jpg" alt="Nick Hood" />
+    <img src="images/1984-style sm.jpg" alt="Nick Hood" />
   </td>
   <td>
     <h1>Nick Hood</h1>
