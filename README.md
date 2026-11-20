@@ -4,7 +4,7 @@
     <span>I am a writer and researcher based in Scotland, currently completing a PhD at The University of Edinburgh.
   </td>
   <td width="40%">
-    <img src="images/2017-NickGrad.jpg" alt="Nick Hood" />
+    <img src="2017-NickGrad.jpg" alt="Nick Hood" />
   </td>
 </span>
   </td>
